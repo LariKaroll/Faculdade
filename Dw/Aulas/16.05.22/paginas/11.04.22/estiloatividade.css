@@ -1,0 +1,10 @@
+.conteiner{
+    display: flex;
+}
+.t1 {
+    font-size: 20px; color: indigo;
+}
+img{
+    display: block;
+    
+}

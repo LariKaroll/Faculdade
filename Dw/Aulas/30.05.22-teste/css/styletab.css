@@ -1,0 +1,26 @@
+#menu-h{
+    display: inline;
+    background-color: rgb(115, 28, 28);
+}
+
+#menu-h ul{
+    max-width: 1000px;
+    padding: 0px;
+    list-style:none; 
+}
+
+#menu-h ul li{
+    display: inline;
+}
+
+#menu-h ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+    transition: background 1s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(214, 157, 157);
+}

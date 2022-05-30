@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+  list-style-type: none; 
+  padding: 0px; 
+  background-color: rgb(67, 67, 69);
+}
+
+#menu-h li{
+    display: inline;
+}
+
+#menu-h li a{
+    display: inline;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+
+}
+
+#menu-h li a:hover{
+    background-color: lightblue;
+}

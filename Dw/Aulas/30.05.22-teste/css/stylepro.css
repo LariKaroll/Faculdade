@@ -1,0 +1,134 @@
+*{
+    border: 0 auto;
+    margin: 0;
+    font-family: verdana;
+    line-height: 20px;
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 12px;
+    color: red;
+    text-align: justify;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+li{
+    font-size: 12px;
+}
+
+hr{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color: rgb(26, 23, 116);
+    padding: 10px;
+}
+body{
+    background-color: rgb(183, 222, 222);
+    font-size: 10pt;
+}
+img{
+    text-align: center;
+    width: 500px;   
+    height: 210px;
+}
+
+.img-dw{
+    text-align: center;
+}
+
+
+.dw-p1{
+    color: red;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.img-pro{
+    text-align: center;
+}
+
+/*parte 2*/
+.at2{
+    text-align: center;
+    color: red;
+}
+.at2 h1{
+    color:red;
+    font-family:  Tahoma, Verdana, Arial, sans-serif ;
+    text-align: center;
+    padding: 10px;  
+}
+
+.at2 h2{
+    color: red;
+}
+
+/*Tabela*/
+.tab{
+    padding: 10px;
+}
+.tab table{
+    margin: auto;
+    border: auto;
+    width: 700px;
+   background-color: goldenrod;
+}
+
+td{
+    padding: 2px;
+}
+
+th{
+    padding: 2px;
+}
+
+/*Grid*/
+
+.grid{
+    display: grid;
+    text-align: center;
+    max-width:550px;
+    margin: 0 auto;
+    border: 2px solid tomato;
+    background:rgb(238, 212, 126);
+    border-radius: 5px;
+}
+
+.item{
+    font-weight: bold;
+    margin: 5px;
+    color: rgb(161, 19, 19);
+    background:rgb(238, 212, 126) ;
+    border: 1px solid tomato;
+    font-size: 12pt;
+    text-align: left;
+    padding: 3px;
+}
+
+/*Menu de navegação*/
+
+.menu{
+    background-color: blue;
+}
+
+.menu ul{
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu ul li a{
+    color: whitesmoke;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background 1s;
+
+}

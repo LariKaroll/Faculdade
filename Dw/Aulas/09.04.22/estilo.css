@@ -1,0 +1,23 @@
+img { height: 200px;
+    
+
+}
+.conteiner{
+    display: inline-flex;
+}
+
+.t1 {
+    color: lightskyblue;
+    font-size: 25px;
+}
+
+.t3{
+    color: lightskyblue;
+    font-size: 25px;
+    ;
+}
+
+.t4{
+    font-size: 20px;
+    
+}

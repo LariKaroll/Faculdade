@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+<body bgcolor="#ffffff" leftmargin="0" topmargin="0">
+    <form > 
+        <table border="0" width="100%" height="100%">
+            <tr>
+                <tr><p style="color: orange;">Formulario de Inscrição OnLine</p></tr>
+            </tr>
+            <tr>
+                <th align="right" colspan="2">Campo de preenchimento obrigatório</th>
+            </tr>
+            <th bgcolor="#CD853F" class="b1" colspan="2">Inscrição</th>
+            <tr>
+                <td align="right" heidht="15"></td>
+                <td align="left" heidht="15"></td>
+            </tr>
+            <tr>
+                <td align="right" width="30%" height="27">Cursos</td>
+                <td align="left" width="70%"height="27"><strong>Extens?o - Centro Universit?rio Proje??o <br>
+                    2018/1 - EXT - Atualiza??o L?ngua Portuguesa - MODULO I - Matutino/Vespertino</strong></td>
+            </tr>
+            <tr>
+                <td height="20"></td>
+                <td height="20"></td>
+            </tr>
+            <tr>
+                <td align="right" width="30%" height="27">PNE - Portador de Necessidades Especiais</td>
+                    <td>
+                        <input type="radio" name="no" id="no">No
+                        <input type="radio" name="yes" id="yes">Yes
+                    </td>
+            </tr>
+            <tr>
+                <td height="20"></td>
+                <td height="20"></td>
+            </tr>
+            <tr>
+                <th bgcolor="#CD853F" class="b1" colspan="2">Dados do Requerimento para Deficientes</th>
+            </tr>
+            <tr>
+                <td width="30%" align="right" height="27" rowspan="13">Tipo Deficiência</td>
+                <td>
+                    <input type="checkbox" name="cego" id="cego"> Cegueira
+                </td>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="visao" id="visao"> Visão subnormal ou baixa visão
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="surdo" id="surdo"> Surdez
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="audio" id="audio"> Deficiência Auditiva
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="fisica" id="fisica"> Deficiência Física
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="Surdocegueira" id="Surdocegueira"> Surdocegueira
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="DeficiênciaMultipla" id="DeficiênciaMultipla"> Deficiência Multipla
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="DeficiênciaIntelectual" id="DeficiênciaIntelectual"> Deficiência Intelectual
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="Autismo" id="Autismo"> Autismo
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="SíndromedeAsperger" id="SíndromedeAsperger"> Síndrome de Asperger
+                    </td> 
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="SíndromedeRett" id="SíndromedeRett"> Síndrome de Rett
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="Transtorno" id="Transtorno"> Transtorno desintegrativo de infância
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="checkbox" name="Altas" id="Altas"> Altas Habilidades/Superdotação
+                    </td>
+                </tr>
+            </tr>
+            <tr>
+                <td align="right" widht="30%" height="27">Descrição Deficiência</td>
+                <td><input type="text" name="Descrição" id="Descrição" maxlength="250" style="width: 250px;"> </td>
+            </tr>
+            <tr>
+                <td align="right" widht="30%" height="27">Recurso - 1</td>
+                <td><input type="text" name="Descrição" id="Descrição" maxlength="250" style="width: 250px;" > </td>
+            </tr>
+            <tr>
+                <td align="right" widht="30%" height="27">Recurso - 2</td>
+                <td><input type="text" name="Descrição" id="Descrição" maxlength="250" style="width: 250px;"> </td>
+            </tr>
+            <tr>
+                <td align="right" widht="30%" height="27">Recurso - 3</td>
+                <td><input type="text" name="Descrição" id="Descrição" maxlength="250" style="width: 250px;"> </td>
+            </tr>
+            <tr>
+                <th bgcolor="#CD853F" class="b1" colspan="2">Dados Pessoais</th>
+            </tr>
+            <tr>
+                <td align="right" widht="30%" height="27">CPF</td>
+                <td>
+                    <input type="text" name="txtcpf" id="y=txtcpf"><small>*informe apenas numeros</small>
+                </td>
+            </tr>
+            <tr>
+                <td align="right" widht="30%" height="27">Nome completo</td>
+                <td>
+                    <input type="text" name="name" id="name">
+                </td>
+            </tr>
+            <tr>
+                <td align="right" widht="30%" height="27">Data de Nascimento</td>
+                <td>
+                    <input type="date" name="date" id="date">
+                </td>
+            </tr>
+            <tr>
+                <td align="right" widht="30%" height="27">Sexo</td>
+                <td>
+                    <input type="radio" name="male" id="male"> Masculino
+                    <input type="radio" name="famele" id="famele"> Feminino
+                </td>
+            </tr>
+            <tr>
+                <th class="b1" colspan="2"> Endereço para Correspondência</th>
+            </tr>
+            <tr>
+                <td align="right">Telefone</td>
+                <td>
+                    <input type="text" name="txtDDD" id="txtDDD" maxlength="2" style="width: 20px;"> -
+                    <input type="text" name="txtTel" id="txtTel" maxlength="10">
+                </td>
+            </tr>
+            <tr>
+                <td align="right"> Tipo telefone</td>
+                <td>
+                    <input type="radio" name="Residencial" id="Residencial"> Residencial
+                    <input type="radio" name="Serviço" id="Serviço"> Serviço
+                    <input type="radio" name="Recado" id="Recado"> Recado
+                </td>
+            </tr>
+            <tr>
+                <td align="right">Celular</td>
+                <td>
+                    <input type="text" name="txtDDD" id="txtDDD" maxlength="2" style="width: 20px;"> -
+                    <input type="text" name="txtTel" id="txtTel" maxlength="10">
+                </td>
+            </tr>
+            <tr>
+                <td align="right">E-Mail</td>
+                <TD>
+                    <input type="email" name="email" id="email">
+                    <input type="checkbox" name="aut" id="aut"> Autorização para receber e-mail.
+                </TD>
+            </tr>
+            <tr>
+                <td height="20"></td>
+                <td height="20"></td>
+            </tr>
+                <tr>
+                    <td align="center" colspan="2"><input type="submit" value="SALVAR" style="width: 80px;"></td>
+                </tr>
+            </tr>
+            </tr>
+        </table>
+        
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body {
+  background: #494949;
+}
+
+.galeria {
+  margin: 50px auto;
+  width: 1250px;
+  height: 800px;
+ overflow: hidden;
+  position: relative;
+}
+
+.foto {
+  position: absolute;
+  animation: animacao infinite 20s;
+  opacity: 0;
+}
+
+@keyframes animacao {
+  25% {
+    opacity: 1;
+   	transform: scale(1.1,1.1);
+  }
+ 50% {
+    opacity: 0;
+   	
+  }
+}
+
+.foto:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.foto:nth-child(2) {
+  animation-delay: 5s;
+}
+
+.foto:nth-child(3) {
+  animation-delay: 10s;
+}
+
+.foto:nth-child(4) {
+  animation-delay: 15s;
+}

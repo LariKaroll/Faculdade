@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Lari"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-18 01:52:27 "/>
+        <attribute name="created" value="TGFyaTtERVNLVE9QLU5BSjJQSTg7MjAyMi0wNC0xODsiMDE6NDM6MDMgIjsyNjM2"/>
+        <attribute name="edited" value="TGFyaTtERVNLVE9QLU5BSjJQSTg7MjAyMi0wNC0xODsiMDE6NTI6MjcgIjsxOzI3NTA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nome" type="String" array="False" size=""/>
+            <declare name="Nota1, Nota2, Nota3, Nota4, Media" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite seu nome: &quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Agora digite suas notas do 1&#176;Bimestre, 2&#176; Bimestre, 3&#176; Bimestre e 4&#176; Bimestre: &#13;&#10; Obs: em sequencia.&quot;" newline="True"/>
+            <input variable="Nota1"/>
+            <input variable="Nota2"/>
+            <input variable="Nota3"/>
+            <input variable="Nota4"/>
+            <output expression="&quot;1&#176;Bimestre: &quot;&amp;Nota1&amp;&quot; &#13;&#10;2&#176;Bimestre: &quot; &amp;Nota2&amp;&quot; &#13;&#10;3&#176;Bimestre: &quot; &amp;Nota3&amp;&quot; &#13;&#10;4&#176;Bimestre: &quot; &amp;Nota4" newline="True"/>
+            <assign variable="Media" expression="(Nota1+Nota2+Nota3+Nota4)/4"/>
+            <output expression="&quot;Sua media do ano foi: &quot; &amp;Media" newline="True"/>
+            <if expression="Media&gt;=7">
+                <then>
+                    <output expression="&quot;Parabens &quot;&amp;Nome&amp;&quot; voc&#234; passou de ano&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Infelizmente &quot;&amp;Nome&amp;&quot; nos veremos na recupera&#231;&#227;o '-'&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
